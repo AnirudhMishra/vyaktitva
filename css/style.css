@@ -311,7 +311,13 @@ a:hover{
 	position: absolute;
 }
 
-
+.log{
+	margin-left: 100px;
+margin-bottom: 15px;
+}
+.logp{
+	margin-left: 36px;
+}
 
 
 /* features section */
