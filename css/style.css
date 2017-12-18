@@ -308,6 +308,7 @@ a:hover{
 .single_banner_text p{
 	font-size:40px;
 	color:#3c3c3c;
+	position: absolute;
 }
 
 
