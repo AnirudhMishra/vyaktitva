@@ -152,9 +152,8 @@ h6 {
 ul{
 	margin:0;
 	padding:0;
-	list-style:none;
+	list-style: square;
 }
-
 a:hover{
 	text-decoration:none;
 }
@@ -345,7 +344,12 @@ margin-bottom: 15px;
 }
 
 /* Special Section */
-.special{}
+.special li{
+	list-style: none;
+}
+.special li img{
+	max-width: 5%;
+}
 
 .main_special{
     padding-bottom: 100px;
@@ -397,15 +401,17 @@ margin-bottom: 15px;
 	padding-bottom:50px;
 }
 .abouts{
-	background-image: url(../images/certification.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
-	-moz-background-size: cover;
-	background-size: cover;
-	color: white;
+
+	background-color: wheat;
+}
+.abouts p{
+	color: black;
 }
 .abouts h2{
-	color: white;
+	color: black;
+}
+.Whyus h3{
+
 }
 
 .single_abouts p{
@@ -498,7 +504,7 @@ margin-bottom: 15px;
 	color: black;
 }
 q{
-	font-size: 1.8em;
+	font-size: 1.3em;
 }
 .copyright_text_area{
     display: block;
